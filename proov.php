@@ -43,6 +43,20 @@
     echo "<br>";
     $tekst2 = 'Pohitoetus voitakse ara 11.11 kui volgnevused ei ole parandatud';
     echo trim($tekst2, "P, p, a..d, o");
+    // Iseseisvalt - Tekst kui massiiv
     echo "<br>";
+    $massivitekst='Taiendav info opilase kohta';
+    echo $massivitekst;
+    echo "<br>";
+    // massiv algab nullist
+    echo "1.täht - ".$massivitekst[0]; 				//T
+    echo '<br>';
+    echo "4.täht - ".$massivitekst[4];                //n
+    // kolmas sõna
+    echo '<br>';
+    $sona=str_word_count($massivitekst,1);
+    print_r($sona);
+    echo "<br>";
+    echo "Kolmas sõna - ".$sona[2];
 
 
