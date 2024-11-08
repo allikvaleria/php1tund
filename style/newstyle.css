@@ -22,3 +22,21 @@ li a:hover {
     background-color: #E6DDDA;
     color: black;
 }
+
+footer{
+    bottom: 0;
+    color: white; /* Text color */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #9D837F, #EDDAD4);
+    height: 2em;
+    left: 0;
+    padding: 1%;
+    position: fixed;
+    font-size: small;
+    width: 45%; /* Width */
+    text-align: center;
+    border: solid 3pt white; /* Border */
+    border-radius: 100px; /* Rounded corners */
+
+    margin: 0 auto;
+ }

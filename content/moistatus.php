@@ -10,24 +10,28 @@ $riik='Soome';
 // esimene täht
 echo "<ol>";
 echo "<li>Esimene täht riigis on - ".substr($riik,0,1)."</li>";
-echo "</ol>";
+
 // teksti pikkus
 echo "<br>";
-echo "<ul>";
+
 echo "<li>Teksti pikkus on - ".strlen($riik)."</li>";
-echo "</ul>";
+
 // leiame on positsiooni
 echo "<br>";
 $otsing2='m';
-echo "<ul>";
+
 echo "<li>'M' asukoht sõnas on - ".strpos($riik, $otsing2)."</li>";
-echo "</ul>";
+
 echo "<br>";
 // massiv algab nullist
-echo "<ul>";
+
 echo "<li>2.täht - ".$riik[1]."</li>";
 echo "<br>";
 echo "<li>4.täht - ".$riik[4]."</li>";
-echo "</ul>";
 
+echo "<br>";
 //str_replace()
+$otsi = array('S', 'm');
+$asenda = array('*', '*');
+echo "<li>Sisesta vahelejäänud tähed - ".str_replace($otsi, $asenda, $riik)."</li>";
+echo "</ol>";
