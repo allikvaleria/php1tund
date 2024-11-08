@@ -5,10 +5,11 @@
     <title>PHP tunnitööd</title>
 </head>
 <body>
-<header>
-    <h1>PHP tunnitööd</h1>
-    <link rel="stylesheet" href="style/newstyle.css">
-</header>
+<?php
+//päis
+include('header.php');
+?>
+
 <?php
 // navigeerimis menüü
     include('nav.php');

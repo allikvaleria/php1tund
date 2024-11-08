@@ -1,4 +1,4 @@
-ul {
+nav ul {
     list-style-type: none; /* Remove bullet points */
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@ ul {
     background-color: black;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -18,14 +18,14 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: #E6DDDA;
     color: black;
 }
 
 footer{
     bottom: 0;
-    color: white; /* Text color */
+    color: white;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, #9D837F, #EDDAD4);
     height: 2em;
@@ -33,10 +33,15 @@ footer{
     padding: 1%;
     position: fixed;
     font-size: small;
-    width: 45%; /* Width */
+    width: 45%;
     text-align: center;
-    border: solid 3pt white; /* Border */
-    border-radius: 100px; /* Rounded corners */
-
+    border: solid 3pt white;
+    border-radius: 100px;
     margin: 0 auto;
  }
+
+div#kodu{
+    padding: 2%;
+    border: solid 1pt black;
+    margin: 10px;
+}
