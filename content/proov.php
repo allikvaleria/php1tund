@@ -1,3 +1,4 @@
+
     <?php
     echo "Tere hommikust!";
     echo "<br>";
@@ -58,5 +59,5 @@
     print_r($sona);
     echo "<br>";
     echo "Kolmas sõna - ".$sona[2];
-
+?>
 

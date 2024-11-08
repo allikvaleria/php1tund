@@ -35,3 +35,27 @@ $otsi = array('S', 'm');
 $asenda = array('*', '*');
 echo "<li>Sisesta vahelejäänud tähed - ".str_replace($otsi, $asenda, $riik)."</li>";
 echo "</ol>";
+?>
+<div id="vastus">
+    <h2>Vastus</h2>
+    <form method="post" action="">
+        Sisesta sinu vastus
+        <input type="text" name="euriik" placeholder="">
+        <input type="submit" value="OK">
+    </form>
+    <?php
+    if (isset($_REQUEST["euriik"])){
+        if(empty($_REQUEST["euriik"])){
+            echo "Sisesta sinu vastus!";
+        }
+        else{
+            if ($_REQUEST["euriik"]=="Soome"){
+                echo "Õige!";
+            }else{
+                echo "Vale!";
+            }
+        }
+    }
+highlight_file('moistatus.php');
+    ?>
+</div>

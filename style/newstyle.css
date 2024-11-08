@@ -19,28 +19,49 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #E6DDDA;
+    background-color: #D8CFBC;
     color: black;
 }
 
 footer{
-    bottom: 0;
-    color: white;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, #9D837F, #EDDAD4);
-    height: 2em;
+    color: #11120D;
+    background: linear-gradient(90deg, #565449, #D8CFBC);
     left: 0;
-    padding: 1%;
-    position: fixed;
-    font-size: small;
     width: 45%;
     text-align: center;
     border: solid 3pt white;
     border-radius: 100px;
+    padding: 1%;
     margin: 0 auto;
- }
+    position: relative; }
+
+header{
+    color: #11120D;
+    background: linear-gradient(90deg, #565449, #D8CFBC);
+    left: 0;
+    width: 45%;
+    text-align: center;
+    border: solid 3pt white;
+    border-radius: 100px;
+    padding: 1%;
+    margin: 0 auto;
+    position: relative;
+}
 
 div#kodu{
+    padding: 2%;
+    border: solid 1pt black;
+    margin: 10px;
+    text-align: center;
+
+}
+
+img {
+    width: 100px;
+}
+
+div#koolivaheaeg, #minusunnipaev, #kuupaev, #hooaeg, #vanus, #samatoo {
+    width: 50%;
     padding: 2%;
     border: solid 1pt black;
     margin: 10px;
