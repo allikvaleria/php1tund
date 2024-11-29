@@ -1,0 +1,100 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+header {
+    color: #11120D;
+    background: linear-gradient(90deg, #565449, #D8CFBC);
+    left: 0;
+    width: 45%;
+    text-align: center;
+    border: solid 3pt white;
+    border-radius: 100px;
+    padding: 1%;
+    margin: 0 auto;
+    position: relative;
+}
+footer{
+    color: #11120D;
+    background: linear-gradient(90deg, #565449, #D8CFBC);
+    left: 0;
+    width: 45%;
+    text-align: center;
+    border: solid 3pt white;
+    border-radius: 100px;
+    padding: 1%;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #E6DDDA;
+    color: black;
+}
+
+div#A1{
+    padding: 2%;
+    border: solid 1pt black;
+    margin: 10px;
+    text-align: center;
+}
+
+.astyle{
+    padding: 2%;
+    border: solid 1pt black;
+    margin: 10px;
+    text-align: center;
+
+}
+
+div#A2{
+    padding: 2%;
+    border: solid 1pt black;
+    margin: 10px;
+    text-align: center;
+}
+
+div#A3{
+    padding: 2%;
+    border: solid 1pt black;
+    margin: 10px;
+    text-align: center;
+}
+
+div#A4{
+    padding: 2%;
+    border: solid 1pt black;
+    margin: 10px;
+    text-align: center;
+}
+
+div#A5{
+    padding: 2%;
+    border: solid 1pt black;
+    margin: 10px;
+    text-align: center;
+}
