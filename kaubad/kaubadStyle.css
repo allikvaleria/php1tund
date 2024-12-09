@@ -1,0 +1,63 @@
+table{
+    border: 1px solid black; /*tabelipiir musta värviga ja paksus 1p*/
+    width: 50%; /*laius*/
+    position: relative;
+
+}
+td{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    color: black;
+}
+.link-button{
+    background-color: #D9BBBD;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    border-radius: 20px;
+
+}
+
+th{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #F6E8E7;
+    color: black;
+}
+
+
+footer, header{
+    color: #11120D;
+    background: linear-gradient(90deg, #F6E8E7, #D9BBBD);
+    left: 0;
+    width: 45%;
+    text-align: center;
+    border: solid 3pt white;
+    border-radius: 90px;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative; }
+
+div#kl{
+    padding: 5px;
+    background: #D9BBBD;
+    width: 100%;
+    position: relative;
+}
+
+#kaubalisamine, #grupilisamine{
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
