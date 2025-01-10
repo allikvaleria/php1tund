@@ -1,0 +1,48 @@
+table{
+    border: 1px solid black; /*tabelipiir musta värviga ja paksus 1p*/
+    width: 100%; /*laius*/
+
+}
+
+.link-button{
+    background-color: #565449;
+    color: #D8CFBC;
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 20px;
+
+}
+
+td{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #D8CFBC;
+    color: black;
+}
+
+footer{
+    color: #11120D;
+    background: linear-gradient(90deg, #565449, #D8CFBC);
+    left: 0;
+    width: 45%;
+    text-align: center;
+    border: solid 3pt white;
+    border-radius: 100px;
+    padding: 1%;
+    margin: 0 auto;
+    position: relative; }
+
+header{
+    color: #11120D;
+    background: linear-gradient(90deg, #565449, #D8CFBC);
+    left: 0;
+    width: 45%;
+    text-align: center;
+    border: solid 3pt white;
+    border-radius: 100px;
+    padding: 1%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
