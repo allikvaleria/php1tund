@@ -147,9 +147,9 @@ function loginUser($conn, $username, $pwd)
         $_SESSION["useruid"] = $usernameExists["usersUid"];
         $_SESSION["rolli"] = $usernameExists["rolli"];
         if ($_SESSION["rolli"] == 0) {
-            header("Location: ../KonkurssKasutaja.php");
+            header("Location: ../tantsuparidHindamine.php");
         } else {
-            header("Location: ../KonkurssAdmin.php");
+            header("Location: ../tantsuAdmin.php");
         }
         exit();
     }

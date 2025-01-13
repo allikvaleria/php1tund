@@ -8,7 +8,7 @@ if( isset($_POST["submit"]) )
     $pwdRepeat = $_POST["pwdrepeat"];
 
     require_once 'functions.inc.php';
-    require_once '../konkursconf.php';
+    require_once '../tantsuConf.php';
     global $yhendus;
 
     if( emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) !== false )

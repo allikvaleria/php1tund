@@ -4,7 +4,7 @@ if (isset($_POST["submit"])) {
     $pwd = $_POST["pwd"];
 
     require_once 'functions.inc.php';
-    require_once '../konkursconf.php';
+    require_once '../tantsuConf.php';
     global $yhendus;
     if (emptyInputLogin($username, $pwd)) {
         header("location: ../login.php?error=emptyinput");
