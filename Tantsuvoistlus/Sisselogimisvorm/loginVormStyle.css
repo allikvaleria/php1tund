@@ -1,0 +1,47 @@
+/* Основные стили для формы */
+div.signup-form {
+    padding: 10px;
+    border: 2px solid black;
+    background: #E6DDDA;
+    width: 30%;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Ошибки */
+.error {
+    color: darkred;
+}
+
+/* Успех */
+.success {
+    color: darkgreen;
+}
+
+/* Стили навигации */
+nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #E6DDDA;
+    color: black;
+}
+
